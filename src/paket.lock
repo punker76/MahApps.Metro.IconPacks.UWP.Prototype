@@ -1,0 +1,4 @@
+FRAMEWORK: >= NET40
+GITHUB
+  remote: ControlzEx/ControlzEx
+    src/ControlzEx/PackIconBase.cs (c5aeed0d597336bed9451ac6b5f80846267ce0f0)
