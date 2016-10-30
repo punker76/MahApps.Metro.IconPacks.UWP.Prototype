@@ -1,11 +1,10 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:uwp="using:MahApps.Metro.IconPacks.UWP"
-                    xmlns:converter="using:MahApps.Metro.IconPacks.UWP.Converter">
+                    xmlns:uwp="using:MahApps.Metro.IconPacks">
 
-    <converter:FlipToScaleXValueConverter x:Key="FlipToScaleXValueConverter" />
-    <converter:FlipToScaleYValueConverter x:Key="FlipToScaleYValueConverter" />
-    <converter:NullToUnsetValueConverter x:Key="NullToUnsetValueConverter" />
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="ms-appx:///MahApps.Metro.IconPacks.UWP/Themes/Converters.xaml" />
+    </ResourceDictionary.MergedDictionaries>
 
     <Style x:Key="MahApps.Metro.Styles.PackIconMaterial" TargetType="uwp:PackIconMaterial">
         <Setter Property="Height" Value="16" />

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MahApps.Metro.IconPacks.UWP
+namespace MahApps.Metro.IconPacks
 {
     /// ******************************************
     /// This code is auto generated. Do not amend.

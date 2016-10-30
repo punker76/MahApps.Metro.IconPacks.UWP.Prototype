@@ -6,7 +6,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
 using ControlzEx;
 
-namespace MahApps.Metro.IconPacks.UWP
+namespace MahApps.Metro.IconPacks
 {
     /// <summary>
     /// Enum PackIconFlipOrientation for the Flip property of the PackIcon

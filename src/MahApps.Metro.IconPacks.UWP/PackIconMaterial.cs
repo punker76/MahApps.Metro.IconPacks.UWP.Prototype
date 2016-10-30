@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace MahApps.Metro.IconPacks.UWP
+namespace MahApps.Metro.IconPacks
 {
     /// <summary>
     /// Icons from the Material Design Icons project, <see><cref>https://materialdesignicons.com/</cref></see>.
