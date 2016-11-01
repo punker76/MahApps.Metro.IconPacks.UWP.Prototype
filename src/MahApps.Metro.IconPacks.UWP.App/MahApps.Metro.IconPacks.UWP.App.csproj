@@ -127,10 +127,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MahApps.Metro.IconPacks.UWP\MahApps.Metro.IconPacks.UWP.csproj">
-      <Project>{74e9a8e7-aec5-4e37-a4f2-bbe24a404415}</Project>
-      <Name>MahApps.Metro.IconPacks.UWP</Name>
-    </ProjectReference>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

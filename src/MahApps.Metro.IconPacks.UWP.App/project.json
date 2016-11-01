@@ -1,5 +1,7 @@
 ﻿{
   "dependencies": {
+    "MahApps.Metro.IconPacks.FontAwesome": "1.6.0",
+    "MahApps.Metro.IconPacks.Material": "1.6.0",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0"
   },
   "frameworks": {

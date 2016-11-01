@@ -1,4 +1,8 @@
-FRAMEWORK: >= NET40
+FRAMEWORK: >= NET46
+NUGET
+  remote: https://www.nuget.org/api/v2
+    MahApps.Metro.IconPacks.FontAwesome (1.6)
+    MahApps.Metro.IconPacks.Material (1.6)
 GITHUB
   remote: ControlzEx/ControlzEx
     src/ControlzEx/PackIconBase.cs (c5aeed0d597336bed9451ac6b5f80846267ce0f0)
