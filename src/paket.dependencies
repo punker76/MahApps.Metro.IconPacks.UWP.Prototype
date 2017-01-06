@@ -1,7 +1,7 @@
 framework: >=net46
 source https://nuget.org/api/v2
 
-nuget MahApps.Metro.IconPacks.FontAwesome 1.6
-nuget MahApps.Metro.IconPacks.Material 1.6
+nuget MahApps.Metro.IconPacks.FontAwesome
+nuget MahApps.Metro.IconPacks.Material
 
 github ControlzEx/ControlzEx:c5aeed0d597336bed9451ac6b5f80846267ce0f0 src/ControlzEx/PackIconBase.cs

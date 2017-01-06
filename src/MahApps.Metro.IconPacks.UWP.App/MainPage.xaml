@@ -6,7 +6,20 @@
       xmlns:uwp="using:MahApps.Metro.IconPacks"
       mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Slider Width="200"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Value="1"
+                Minimum="0"
+                Maximum="1" StepFrequency="0.1"
+                x:Name="OpacitySlider" />
+        <CheckBox Width="200"
+                  HorizontalAlignment="Center"
+                  VerticalAlignment="Center"
+                  IsChecked="True"
+                  x:Name="SpinCheckBox" />
 
         <StackPanel HorizontalAlignment="Center"
                     VerticalAlignment="Center"
@@ -30,7 +43,8 @@
                                   Margin="4"
                                   VerticalAlignment="Center"
                                   Kind="CompassOutline"
-                                  Spin="True"
+                                  Spin="{Binding ElementName=SpinCheckBox, Path=IsChecked, Mode=TwoWay}"
+                                  Opacity="{Binding ElementName=OpacitySlider, Path=Value, Mode=OneWay}"
                                   SpinDuration="3" />
             <uwp:PackIconMaterial Width="48"
                                   Height="48"
@@ -41,5 +55,5 @@
             <FontIcon />
         </StackPanel>
 
-    </Grid>
+    </StackPanel>
 </Page>
